@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semana de Tecnologia e Cultura</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(245, 245, 245);
+      color: #333333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: darkblue;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #1a1a1a;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    #menu {
+      background-color: #ffffff;
+      padding: 15px;
+      border: 1px solid #cccccc;
+      margin-bottom: 30px;
+    }
+
+    #menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #menu li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+    #menu a {
+      color: blue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #menu a:hover {
+      color: rgb(255, 69, 0);
+    }
+
+    #sobre p {
+      text-align: justify;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table, th, td {
+      border: 1px solid #cccccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: darkblue;
+      color: #ffffff;
+    }
+
+    .caixa-atividade {
+      width: 80%;
+      height: auto;
+      padding: 20px;
+      margin: 20px 0;
+      box-sizing: border-box;
+    }
+
+    .caixa-atividade h3 {
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    .caixa-atividade a {
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    .caixa-1 {
+      background-color: lightblue;
+      border: 3px solid darkblue;
+      border-radius: 0px;
+    }
+
+    .caixa-2 {
+      background-color: lightgreen;
+      border: 3px solid green;
+      border-radius: 15px;
+    }
+
+    .caixa-3 {
+      background-color: lightcoral;
+      border: 5px solid purple;
+      border-radius: 30px;
+      border-top-left-radius: 0px;
+    }
+
+    .imagem-secao {
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #cccccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Semana de Tecnologia e Cultura</h1>
+    <p>Bem-vindo ao evento anual que conecta inovação, desenvolvimento científico e expressões culturais em um só lugar.</p>
+  </header>
+
+  <nav id="menu">
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#programacao">Programação</a></li>
+      <li><a href="#atividades">Atividades</a></li>
+      <li><a href="#inscricoes">Inscrições</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>A Semana de Tecnologia e Cultura é um evento promovido para integrar conhecimento prático, inovação e manifestações artísticas. Durante os dias de encontro, alunos, docentes e a comunidade externa participam de uma imersão repleta de trocas de experiências e aprendizado contínuo.</p>
+    <p>O objetivo principal do evento é incentivar a pesquisa científica, o desenvolvimento tecnológico e a valorização cultural, preparando os participantes para os desafios do mercado moderno por meio de atividades colaborativas e palestras enriquecedoras.</p>
+    <img src="https://via.placeholder.com/600x200" alt="Imagem Ilustrativa da Semana de Tecnologia e Cultura" class="imagem-secao">
+  </section>
+
+  <section id="programacao">
+    <h2>Programação</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Horário</th>
+          <th>Nome da Atividade</th>
+          <th>Local</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:00 - 09:30</td>
+          <td>Abertura e Palestra Magna</td>
+          <td>Auditório Principal</td>
+        </tr>
+        <tr>
+          <td>10:00 - 12:00</td>
+          <td>Oficina de Robótica</td>
+          <td>Laboratório 01</td>
+        </tr>
+        <tr>
+          <td>14:00 - 16:00</td>
+          <td>Workshop de Desenvolvimento Web</td>
+          <td>Laboratório 03</td>
+        </tr>
+        <tr>
+          <td>16:30 - 18:00</td>
+          <td>Feira de Arte Digital e Encerramento</td>
+          <td>Pátio Central</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="atividades">
+    <h2>Atividades</h2>
+
+    <div class="caixa-atividade caixa-1">
+      <h3>Oficina de Robótica</h3>
+      <p>Aprenda os conceitos básicos de automação e montagem de circuitos utilizando plataformas abertas de programação.</p>
+      <a href="#inscricoes">Mais informações</a>
+    </div>
+
+    <div class="caixa-atividade caixa-2">
+      <h3>Workshop de Desenvolvimento Web</h3>
+      <p>Construa páginas interativas utilizando HTML5, CSS3 e boas práticas de estruturação de código.</p>
+      <a href="#inscricoes">Mais informações</a>
+    </div>
+
+    <div class="caixa-atividade caixa-3">
+      <h3>Feira de Arte Digital</h3>
+      <p>Exposição de trabalhos artísticos desenvolvidos utilizando ferramentas digitais, modelagem 3D e inteligência artificial.</p>
+      <a href="#inscricoes">Mais informações</a>
+    </div>
+  </section>
+
+  <section id="inscricoes">
+    <h2>Inscrições</h2>
+    <p>As inscrições são gratuitas e abertas ao público. Para garantir sua vaga nas atividades, acesse o portal institucional.</p>
+    <a href="https://ifce.edu.br" target="_blank" rel="noopener noreferrer">Acesse o site do IFCE</a>
+  </section>
+
+  <footer>
+    <p>Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)</p>
+    <p>Página desenvolvida por: Sua Dupla de Alunos</p>
+  </footer>
+
+</body>
+</html>
